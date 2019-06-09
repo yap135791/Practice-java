@@ -1,5 +1,5 @@
 package hackerrank.practice.java.strings;
-public class Solution {
+public class SubstringComparisons {
 
 	//https://www.hackerrank.com/challenges/java-substring/problem
     public static String getSmallestAndLargest(String s, int k) {

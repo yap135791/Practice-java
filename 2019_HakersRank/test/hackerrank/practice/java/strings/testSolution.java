@@ -4,14 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class testSolution {
+class testSubstringComparisons {
 
 	@Test
 	void test() {
 		//https://www.hackerrank.com/challenges/java-string-compare/problem
     	String s ="welcometojava";
     	int k =3;
-        assertEquals(Solution.getSmallestAndLargest(s, k),"ava\nwel");
+        assertEquals(SubstringComparisons.getSmallestAndLargest(s, k),"ava\nwel");
 	}
 
 }
