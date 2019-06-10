@@ -13,7 +13,7 @@ public class SubstringComparisons {
         for(int i=0;i<len;i++)
         {
             String tmp = new String(s.substring(i,i+k));
-            System.out.print(tmp+" ");
+//            System.out.print(tmp+" ");
             list[i] = tmp;
             if(i==0)
             {
