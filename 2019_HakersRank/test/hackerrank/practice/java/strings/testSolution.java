@@ -21,5 +21,18 @@ class testSubstringComparisons {
 		String b = "ACT";
 		assertEquals(Anagrams.isAnagram(a, b), true);
 	}
+	
+	@Test
+	void testStringToken1() {
+		String s = "           YES      leading spaces        are valid,    problemsetters are         evillllll";
+		int size =8;
+		assertEquals(StringToken.splitStringWithToken(s), size);
+	}
+	@Test
+	void testStringToken2() {
+		String s = "                        ";
+		int size =0;
+		assertEquals(StringToken.splitStringWithToken(s), size);
+	}
 
 }
