@@ -14,4 +14,11 @@ public class testSolution {
 		assertEquals(MinMaxSum.miniMaxSum(arr), expect);
 		
 	}
+	
+	@Test
+	void testBirthdayCakeCandles() {
+		int [] arr = {3,2,1,3};
+		int expect = 2;
+		assertEquals(BirthdayCakeCandles.birthdayCakeCandles(arr), expect);
+	}
 }
