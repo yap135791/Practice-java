@@ -21,4 +21,18 @@ public class testSolution {
 		int expect = 2;
 		assertEquals(BirthdayCakeCandles.birthdayCakeCandles(arr), expect);
 	}
+	
+	@Test
+	void testTimeConversion() {
+		String s = "07:05:45PM";
+		String expect = "19:05:45";
+		assertEquals(TimeConversion.timeConversion(s), expect);
+	}
+	@Test
+	void testTimeConversion2() {
+		String s = "12:40:22AM";
+		String expect = "00:40:22";
+		assertEquals(TimeConversion.timeConversion(s), expect);
+	}
+		
 }
