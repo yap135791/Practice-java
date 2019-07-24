@@ -34,5 +34,12 @@ public class testSolution {
 		String expect = "00:40:22";
 		assertEquals(TimeConversion.timeConversion(s), expect);
 	}
+	
+	@Test
+	void testDivisibleSumPairs() {
+		int [] arr = {1,3,2,6,1,2};
+		int expect = 5;
+		assertEquals(DivisibleSumPairs.divisibleSumPairs(6, 3, arr), expect);
+	}
 		
 }

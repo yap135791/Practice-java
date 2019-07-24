@@ -9,7 +9,7 @@ public class MinMaxSum {
         Arrays.sort(arr);
         long min = (long)arr[0]+(long)arr[1]+(long)arr[2]+(long)arr[3];
         long max = (long)arr[1]+(long)arr[2]+(long)arr[3]+(long)arr[4];
-        System.out.println(min+" "+max);
+//        System.out.println(min+" "+max);
         return max-min;
     }
 }
