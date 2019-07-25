@@ -3,6 +3,9 @@ package hackerrank.algorithms.warmup;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 
 public class testSolution {
@@ -47,7 +50,16 @@ public class testSolution {
 	void testBreakingTheRecords() {
 		int [] arr = {10,5,20,20,4,5,2,25,1};
 		int [] expected = {2,4};
-		assertArrayEquals(expected, BreakingTheRecords.breakingRecords(arr));
+		assertArrayEquals( BreakingTheRecords.breakingRecords(arr),expected);
+	}
+	
+	@Test
+	void testBirthdayChocolate() {
+		List<Integer> list = new LinkedList<>();
+		list.add(4);
+		list.add(1);
+		int expected = 1;
+		assertEquals(BirthdayChocolate.birthday(list, 1, 4), expected);
 	}
 		
 }
