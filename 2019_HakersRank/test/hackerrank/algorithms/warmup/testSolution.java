@@ -80,4 +80,29 @@ public class testSolution {
 		int expected = 3;
 		assertEquals(MigratoryBirds.migratoryBirds(list), expected);
 	}
+	
+	@Test
+	void testBonAppetit() {
+		List<Integer> list = new LinkedList<>();
+		list.add(3);
+		list.add(10);
+		list.add(2);
+		list.add(9);
+		int expected = 5;
+		assertEquals(BonAppetit.bonAppetit(list, 1, 12), expected);
+	}
+
+
+	@Test
+	void testBonAppetit2() {
+		List<Integer> list = new LinkedList<>();
+		list.add(3);
+		list.add(10);
+		list.add(2);
+		list.add(9);
+		int expected = 0;
+		assertEquals(BonAppetit.bonAppetit(list, 1, 7), expected);
+	}
+
+
 }
