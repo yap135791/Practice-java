@@ -104,5 +104,15 @@ public class testSolution {
 		assertEquals(BonAppetit.bonAppetit(list, 1, 7), expected);
 	}
 
+	@Test
+	void testCatsandaMouse() {
+		assertEquals(CatsandMouse.catAndMouse(1, 2, 3),"Cat B");
+	}
+
+	
+	@Test
+	void testCatsandaMouse2() {
+		assertEquals(CatsandMouse.catAndMouse(1, 3, 2),"Mouse C");
+	}
 
 }
