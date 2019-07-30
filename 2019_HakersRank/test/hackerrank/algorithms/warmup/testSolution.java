@@ -114,5 +114,14 @@ public class testSolution {
 	void testCatsandaMouse2() {
 		assertEquals(CatsandMouse.catAndMouse(1, 3, 2),"Mouse C");
 	}
+	
+	@Test
+	void testSockMerchant() {
+		int [] ar = {10,20,20,10,10,30,50,10,20};
+		int expected = 3;
+		assertEquals(SockMerchant.sockMerchant(9, ar), expected);
+		
+		
+	}
 
 }
