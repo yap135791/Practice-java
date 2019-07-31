@@ -120,8 +120,13 @@ public class testSolution {
 		int [] ar = {10,20,20,10,10,30,50,10,20};
 		int expected = 3;
 		assertEquals(SockMerchant.sockMerchant(9, ar), expected);
-		
-		
+	}
+	
+	@Test
+	void testCountingValley() {
+		String str = "UDDDUDUU";
+		int expected = 1;
+		assertEquals(CountingValleys.countingValleys(8, str), expected);
 	}
 
 }
