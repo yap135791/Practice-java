@@ -128,5 +128,16 @@ public class testSolution {
 		int expected = 1;
 		assertEquals(CountingValleys.countingValleys(8, str), expected);
 	}
+	
+	@Test
+	void testElectronicsShop() {
+		int [] keyboards = {3,1};
+		int [] drives = {5,2,8};
+		int expected = 9;
+		
+		assertEquals(ElectronicsShop.getMoneySpent(keyboards, drives, 10), expected);
+		
+		
+	}
 
 }
