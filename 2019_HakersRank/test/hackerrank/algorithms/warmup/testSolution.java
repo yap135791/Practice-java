@@ -134,10 +134,23 @@ public class testSolution {
 		int [] keyboards = {3,1};
 		int [] drives = {5,2,8};
 		int expected = 9;
-		
 		assertEquals(ElectronicsShop.getMoneySpent(keyboards, drives, 10), expected);
-		
-		
+	}
+	
+	@Test
+	void testHurdleRace() {
+		int []hurdles = {1,6,3,5,2};
+		int expected = 2;
+		assertEquals(TheHurdleRace.hurdleRace(4, hurdles), expected);
 	}
 
+	@Test
+	void testHurdleRace2() {
+		int []hurdles = {2,5,4,5,2};
+		int expected = 0;
+		assertEquals(TheHurdleRace.hurdleRace(7, hurdles), expected);
+	}
+
+	
+	
 }
