@@ -150,6 +150,13 @@ public class testSolution {
 		int expected = 0;
 		assertEquals(TheHurdleRace.hurdleRace(7, hurdles), expected);
 	}
+	
+	@Test
+	void testDesignerPDFViewer() {
+		int []h = {1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5};
+		int expected = 9;
+		assertEquals(DesignerPDFViewer.designerPdfViewer(h, "abc"), expected);
+	}
 
 	
 	
