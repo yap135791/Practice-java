@@ -158,6 +158,26 @@ public class testSolution {
 		assertEquals(DesignerPDFViewer.designerPdfViewer(h, "abc"), expected);
 	}
 
-	
+	@Test
+	void testUtopianTree() {
+		int n = 4;
+		int expected = 7;
+		assertEquals(UtopianTree.utopianTree(n), expected);
+	}
+
+	@Test
+	void testUtopianTree2() {
+		int n = 3;
+		int expected = 6;
+		assertEquals(UtopianTree.utopianTree(n), expected);
+	}
+
+	@Test
+	void testUtopianTree3() {
+		int n = 5;
+		int expected = 14;
+		assertEquals(UtopianTree.utopianTree(n), expected);
+	}
+
 	
 }
